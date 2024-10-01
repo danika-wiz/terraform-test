@@ -2,7 +2,7 @@
 # SPDX-License-Identifier: MPL-2.0
 
 provider "aws" {
-  region = var.region
+  region = us-east-2
 }
 
 data "aws_ami" "ubuntu" {
